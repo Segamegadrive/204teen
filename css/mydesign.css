@@ -1,14 +1,22 @@
 /*****SG CSS: Copyright 2014***********/
 
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section{
+	display: block;
+}
+
+div{
+	display: block;
+}
+
 *{
 	margin: 0;
 	padding: 0;
 } /*takes up whole space of browser*/
 
 html, body{
-	font-family: "Helvetica Neue", helvetica, tahoma, arial;
+	font-family: "Helvetica Neue", helvetica, tahoma, arial, 'Open Sans',sans-serif;
 	font-size: 14px;
-	background-color:#fff;
+	background-color:none;
 }
 
 a{
@@ -23,6 +31,11 @@ header{
 	background-color:#003333;
 	min-height: 50px;
 }
+
+h4{
+	color: #666;
+}
+
 
 .banner{
 	background-color: none;
@@ -75,9 +88,23 @@ img{
 	margin-top: 8px;
 	overflow: hidden;
 	display: block;
+	position: relative;
 	/*overflow: hidden;*/	
 	/*position: relative;*/
 }
+
+#content-for-photo{
+	width: 1000px;
+	height: auto;
+	background-color: none; 
+	margin: 0 auto;
+	padding: 5px;
+	margin-top: 8px;
+	overflow: hidden;
+	display: block;
+}
+
+
 
 .home-middleleft{
 	width: 322px;
@@ -85,9 +112,11 @@ img{
 	background-color: none;
 	float: left;
 	margin-right: 11px;
-	/*margin-right: 11px;*/
 	position: relative;
-	top: 10px;
+	left: 5px;
+	/*margin-right: 11px;*/
+	/*position: relative;
+	top: 10px;*/
 	cursor:pointer;
 	overflow: hidden;
 }
@@ -165,14 +194,79 @@ img{
 .slider-buttons ul li a{
 	background-color: none;
 	color: #000;
+	text-decoration: none;
+}
+
+.slider-buttons ul li{
+	display: inline;
+}
+
+.prev{
+	float: left;
+	position: relative;
+	bottom: 265px;
+	left: 10px;
+}
+
+.next{
+	float: right;
+	position: relative;
+	bottom: 265px;
+	right: 10px;
+
+}
+
+.sliderone{
+	text-align: center; line-height: 60px; height: 60px; width: 165px; background-color: #F8F8F8 ; padding: 5px; float: left; /*margin-right: 25px;*/position: relative; left: 65px; color: #000; border-bottom: 2px solid #686868; font-weight: none; /*border-top: 2px solid #686868;*/
+}
+
+.sliderone:hover{
+	background-color: #686868;
+	color: #fff;
+}
+
+.slidertwo{
+	text-align: center; line-height: 60px; height: 60px; width: 165px; background-color: #FFE6F0; padding: 5px; float: left; /*margin-right: 25px;*/ position: relative; left: 65px; color: #000; border-bottom: 2px solid #CC0066; font-weight: none; /*border-top: 2px solid #CC0066;*/
+}
+
+.slidertwo:hover{
+	background-color: #CC0066;
+	color: #fff;
+}
+
+.sliderthree{
+	text-align: center; line-height: 60px; height: 60px; width: 165px; background-color:#E6E6FF; padding: 5px; float: left; /*margin-right: 25px;*/ position: relative; left: 65px; color: #000; border-bottom:2px solid #0000FF; font-weight: none;/*border-top: 2px solid #9999FF;*/
+}
+
+.sliderthree:hover{
+	background-color: #0000FF;
+	color: #fff;
+}
+
+.sliderfour{
+	text-align: center; line-height: 60px; height: 60px; width: 165px; background-color:#FFF5E6;  padding: 5px; float: left; /*margin-right: 25px;*/ position: relative; left: 65px; color: #000; border-bottom: 2px solid #FF9900; font-weight: none;/*border-top: 2px solid #660000;*/
+}
+
+.sliderfour:hover{
+	background-color: #FF9900;
+	color: #fff;
+}
+
+.sliderfive{
+	text-align: center; line-height: 60px; height: 60px; width: 165px; background-color: #E6F5EB; padding: 5px; float: left; /*margin-right: 25px;*/ position: relative; left: 65px; color: #000; border-bottom: 2px solid #009933; font-weight: none;/*border-top: 2px solid #333300;*/
+}
+
+.sliderfive:hover{
+	background-color: #009933;
+	color: #fff;
 }
 /*********************/
 
 .home-thumb-left{
 	width: 322px;
 	height: 85px;
-	background-color: none;
-	border-bottom: dotted 1px #888888;
+	background-color:#fff;
+	border-bottom: solid 1px #E8E8E8;
 	position: relative;
 	bottom: 3px;
 	overflow: hidden;
@@ -236,17 +330,28 @@ img{
 	background-color: none;
 	width:100%;
 	overflow: hidden;
+	margin-bottom: 40px;
+	border-bottom: 1px solid #999;
+	padding-bottom: 7px;
 	/*color: #707070;*/
 }
+
+.home-photo-title h4{
+	font-size: 24px; color: #666; font-weight: 400;
+}
+
 .home-blog-title{
 	background-color: none;
 	width:100%;
 	overflow: hidden;
+	margin-bottom: 19px;
+	border-bottom: 1px solid #999;
+	padding-bottom: 7px;
 	/*color: #707070;*/
 }
 
-h4{
-	color: #505050;
+.home-blog-title h4{
+	font-size: 24px; color: #666; font-weight: 400;
 }
 
 .footer{
@@ -259,15 +364,24 @@ h4{
 /********** Blog CSS ****************/
 
 .home-blog-left{
-	background-color: #FFF5E6;
+	background-color:#FFFFE6;
 	width:450px;
-	height: 200px;
+	height: 150px;
 	float: left;
-	position: relative;
-	top: 10px; 
+	position:relative;
+	left: 20px;
+	/*position: relative;
+	top: 10px;*/ 
+	margin-right: 40px;
+	margin-top: 30px;
+	padding: 5px;
 }
 
-.home-blog-right{
+.home-blog-left:hover{
+	filter: alpha(opacity=90);
+	opacity: .6;
+}
+/*.home-blog-right{
 	background-color: #FFF5E6;
 	width: 450px;
 	height: 200px;
@@ -290,30 +404,30 @@ h4{
 	height: 200px;
 	float: right;
 	margin-top: 20px;
-}
-
-.home-advertise{
-	background-color: #F5FAFF;
-	width: 100%;
-	height: 250px;
-}
-
-.h_a_1{
-	background-color:#4D4DB8;
-	margin: 0 auto;
-	text-align: center;
-	height: auto;
-	width: 230px;
-	position: relative;
-	top: 50px;
-	padding: 20px;
-	border-radius: 5px;
-	color: white;
-	cursor: pointer;
-}
+}*/
 
 .clearing{
 	clear: both;
+}
+
+.blog-pic{
+	background-color: none;
+	height: 150px;
+	width: 200px;
+	overflow: hidden;
+	float: left;
+}
+
+.blog-info{
+	height: 190px;
+	width: 240px;
+	background-color: none;
+	overflow: hidden;
+	float: right;
+	padding-right:4px;
+	text-align: justify;
+	text-justify: inter-word;
+	color: #505050;
 }
 
 /************* Actual Photo Thumb CSS************/
@@ -329,7 +443,7 @@ h4{
 }
 
 .photo-thumb{
-	height: 132px;
+	height: auto;
 	width: 160px;
 	float: left;
 	cursor: pointer;
@@ -363,12 +477,102 @@ h4{
 	overflow: hidden;
 }
 
-.blogbar{
-	margin-left: 30px;
-	margin-top: 13px;
-}
+
 
 .circle{
 	position: relative;
 	bottom: 20px;
+}
+
+.photo-container{
+	width: 668px;
+	height: auto;
+	background-color: none;
+	overflow: hidden;
+	display: block;
+	float: left;
+}
+
+.photo-page-side-div{
+	height: auto;
+	background-color:#F8F8F8;
+	width: 310px;
+	float: right;
+	overflow: hidden;
+	padding: 4px;
+	margin-top: 0px;
+	position: relative;
+	top: 5px;
+	/*border-left: 1px solid #F0F0F0;*/
+}
+
+.box1{
+	width:300px;
+	height: auto;
+	padding: 5px;
+	background-color: #FFFFE6;
+	float: left;
+	overflow: hidden;
+	margin-bottom: 5px;
+}
+
+.box1:hover{
+	filter: alpha(opacity=90);
+	opacity: .6;
+	/*-webkit-filter: brightness(150%);*/
+}
+
+.box1imagethumb{
+	height: 110px;
+	width: 120px;
+	background-color: none;
+	float: left;
+	overflow: hidden;
+}
+
+.box1infodiv{
+	height: 110px;
+	width: 170px;
+	background-color: none;
+	float: right;
+	overflow: hidden;
+	/*margin-left: 125px;*/
+}
+
+.photo-header{
+	width: 318px;
+	height: 40px;
+	background-color: orange;
+	float: right;
+	text-align: center;
+	line-height: 40px;
+	margin-top: 53px;
+	border-radius: 5px 5px 0 0;
+}
+/*************Flip Panel CSS***************/
+
+.panel{
+	height: 200px;
+	background-color: orange;
+	display: none;
+}
+
+.home-advertise{
+	background-color:#E6FAE6;
+	width: 500px;
+	height: 250px;
+}
+
+.h_a_1{
+	background-color:red;
+	margin: 0 auto;
+	text-align: center;
+	height: auto;
+	width: 230px;
+	position: relative;
+	top: 100px;
+	padding: 20px;
+	border-radius: 3px;
+	color: white;
+	cursor: pointer;
 }

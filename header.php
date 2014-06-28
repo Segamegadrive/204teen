@@ -5,7 +5,7 @@
 			<ul>
 				<li><a href = "index.php">Home</a></li>
 				<li><a href = "blog.php">Blog</a></li>
-				<li><a href = "photo.php">Photo</a></li>
+				<li><a href = "photo.php">Photos</a></li>
 				<!--<li><a href = "#">Events</a></li>-->
 			</ul>
 		</nav>
