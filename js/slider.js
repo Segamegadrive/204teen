@@ -7,6 +7,7 @@
  
       // make <ul> as large as all <li>’s
       this.ul.style.width = (this.li[0].clientWidth * this.li.length) + 'px'
+
  
       this.currentIndex = 0
     },

@@ -1,6 +1,6 @@
 <?php
 //$currency = '£';
-$title = 'Welcome to Chautari Hub';
+$title = 'Welcome to 204teen Production';
 $db_username = 'root';
 $db_password = '';
 $db_name = 'sasa';
