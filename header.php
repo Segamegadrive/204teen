@@ -1,14 +1,3 @@
-<!DOCTYPE html>
-<html lang = "en=GB">
-<head>
-	<title>Welcome to 204teen Production</title>
-	<link rel = "stylesheet" type = "text/css" href = "css/mydesign.css" />
-	<meta charset = "utf-8">
-	<meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1" />
-	
-	<link href="images/fav.ico" rel="shortcut icon" type="image/vnd.microsoft.icon" />
-</head>
-<body>
 <script>
   (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
   (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
@@ -32,5 +21,3 @@
 		</nav>
 		</div>
 </header>
-</body>
-</html>

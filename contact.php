@@ -69,16 +69,16 @@
 		<div id = "contact_form_wrapper">
 		<form name = "contact" action = "<?php echo $_SERVER['PHP_SELF']; ?>" method = "post">
 			<label for = "first_name">First Name:</label><br><br>
-			<input type = "text" name = "first_name" /><br><br>
+			<input type = "text" name = "first_name" required /><br><br>
 			<label for = "last_name">Last Name:</label><br><br>
-			<input type = "text" name = "last_name" /><br><br>
+			<input type = "text" name = "last_name" required /><br><br>
 			<label for = "email">Email:</label><br><br>
-			<input type = "text" name = "email" /><br><br>
+			<input type = "email" name = "email" autocomplete="off" required /><br><br>
 			<label for = "contact_number">Contact Number:</label><br><br>
-			<input type = "text" name = "contact_number" /><br><br>
+			<input type = "text" name = "contact_number" required /><br><br>
 			<label for = "comments">Comments:</label><br><br>
 			<textarea class = "txt_area" name = "comments" cols = "64" rows = "10"></textarea><br><br>
-			<input class = "button" type = "submit" name = "submit" value = "Submit" />
+			<input class = "button" type = "submit" name = "submit" formenctype="multipart/form-data" value = "Submit" />
 		</form>
 		</div> 
 		<div id = "contact_map">
