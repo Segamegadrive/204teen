@@ -43,7 +43,6 @@ h4, h3{
 
 
 .banner{
-	/*background-color: none;*/
 	width: 1000px;
 	min-height: 56px;
 	margin: 0 auto;
@@ -69,7 +68,6 @@ nav ul li a{
 	float: right;
 	/*margin-left: 45px;*/
 	margin-top: 18px;
-	/*background-color: none;*/
 	color: #fff;
 }
 
@@ -113,7 +111,7 @@ img{
 #content-for-photo{
 	width: 1003px;
 	height: auto;
-	/*background-color: none;*/ 
+	 
 	margin: 0 auto;
 	padding: 5px;
 	margin-top: 8px;
@@ -124,7 +122,7 @@ img{
 .home-middleleft-1{
 	width: 322px;
 	height: auto;
-	/*background-color: none;*/
+	
 	float: left;
 	margin-right: 11px;
 	position: relative;
@@ -152,7 +150,7 @@ img{
 .home-middleleft{
 	width: 322px;
 	height: auto;
-	/*background-color: none;*/
+	
 	float: left;
 	margin-right: 11px;
 	margin-bottom: 5px;
@@ -221,7 +219,7 @@ img{
 	width: 990px;
 	overflow: hidden;
 	margin: 0 auto;
-	/*background-color: none;*/
+	
 	display: block;
 	position: relative;
 	left: 2px;
@@ -395,7 +393,7 @@ img{
 .home-thumb-middle{
 	width: 100%;
 	height: 85px;
-	/*background-color: none;*/
+	
 	border-bottom: solid 1px #E8E8E8;
 	border-left: solid 1px #E8E8E8;
 	border-right: solid 1px #E8E8E8;
@@ -417,7 +415,7 @@ img{
 .home-thumb-right{
 	width: 100%px;
 	height: 85px;
-	/*background-color: none;*/
+	
 	border-bottom: solid 1px #E8E8E8;
 	border-left: solid 1px #E8E8E8;
 	border-right: solid 1px #E8E8E8;
@@ -437,7 +435,7 @@ img{
 }
 
 .home-photo-title{
-	/*background-color: none;*/
+	
 	width:100%;
 	overflow: hidden;
 	margin-bottom: 20px;
@@ -455,7 +453,7 @@ img{
 }
 
 .home-blog-title{
-	/*background-color: none;*/
+	
 	width:958px;
 	overflow: hidden;
 	margin-bottom: 19px;
@@ -523,7 +521,7 @@ img{
 }
 
 .blog-pic{
-	/*background-color: none;*/
+	
 	height: 150px;
 	width: 200px;
 	overflow: hidden;
@@ -541,7 +539,7 @@ img{
 .blog-info{
 	height: 150px;
 	width: 267px;
-	/*background-color: none;*/
+	
 	overflow: hidden;
 	float: right;
 	padding-right:4px;
@@ -551,7 +549,7 @@ img{
 }
 
 .blog-title{
-	/*background-color: none;*/
+	
 	height: auto;
 	overflow: hidden;
 	font-family: georgia;
@@ -562,7 +560,7 @@ img{
 }
 
 .blog_photo_sub_title{
-	/*background-color: none;*/
+	
 	height: auto;
 	width:600px;
 	overflow: hidden;
@@ -591,7 +589,7 @@ img{
 /************* Actual Photo Thumb CSS************/
 
 .photo-thumb-box{
-	/*background-color: none;*/
+	
 	height: auto;
 	width: 720px;
 	overflow: hidden;
@@ -605,7 +603,7 @@ img{
 	width: 160px;
 	float: left;
 	cursor: pointer;
-	/*background-color: none;*/
+	
 	margin-left: 9px;
 	overflow: hidden;
 	background-repeat: no-repeat;
@@ -641,7 +639,7 @@ img{
 .side-bar{
 	height: auto;
 	width:310px;
-	/*background-color: none;*/
+	
 	float: right;
 	/*border-left: 1px solid #f0f0f0;*/
 	overflow: hidden;
@@ -657,7 +655,7 @@ img{
 .photo-container{
 	width: 674px;
 	height: auto;
-	/*background-color: none;*/
+	
 	overflow: hidden;
 	display: block;
 	float: left;
@@ -696,7 +694,7 @@ img{
 .box1imagethumb{
 	height: 96px;
 	width: 125px;
-	/*background-color: none;*/
+	
 	float: right;
 	overflow: hidden;
 	margin-left: 5px;
@@ -711,7 +709,7 @@ img{
 .box1infodiv{
 	height: 95px;
 	width: 167px;
-	/*background-color: none;*/
+	
 	float: right;
 	overflow: hidden;
 	/*margin-left: 125px;*/
@@ -720,7 +718,7 @@ img{
 .photo-header{
 	width: 318px;
 	height: 40px;
-	/*background-color: none;*/
+	
 	float: right;
 	text-align: center;
 	line-height: 40px;
@@ -733,7 +731,7 @@ img{
 .photo-header2{
 	width: 310px;
 	height: 40px;
-	/*background-color: none;*/
+	
 	float: right;
 	text-align: center;
 	line-height: 40px;
@@ -776,7 +774,7 @@ img{
 }
 
 .sharebuttons{
-	/*background-color: none;*/
+	
 	float: right;
 	position: relative;
 	bottom: 60px;
@@ -784,7 +782,7 @@ img{
 }
 
 .next-prev-big-image{
-	/*background-color: none;*/
+	
 	float: right;
 	overflow: hidden;
 	margin-left: 60px;
@@ -838,7 +836,7 @@ img{
 }
 
 .pbi1{
-	/*background-color: none;*/
+	
 	height: 330px;
 	width: 230px;
 	overflow: hidden;
@@ -891,13 +889,13 @@ img{
 .footer_inside{
 	width: 1003px;
 	height: auto;
-	/*background-color: none;*/
+	
 	overflow: hidden;
 	margin: 0 auto;
 }
 
 .social_1{
-	/*background-color: none;*/
+	
 	height: 50px;
 	overflow: hidden;
 	width: 290px;
@@ -907,7 +905,7 @@ img{
 }
 
 .social_twitter{
-	/*background-color: none;*/
+	
 	width: 130px;
 	position: relative;
 	bottom: 24px;
@@ -917,7 +915,7 @@ img{
 
 .social_2{
 	float: right;
-	/*background-color: none;*/
+	
 	margin-top: 60px;
 	font-size: 12px;
 	color: #888;
@@ -984,7 +982,7 @@ img{
 
 .about_2{
 	margin: 0 auto;
-	/*background-color: none;*/
+	
 	text-align: center;
 	font-family: georgia;
 	font-size: 40px;
@@ -1074,7 +1072,7 @@ input{
 #contact_map{
 	width: 396px;
 	height: 440px;
-	/*background-color: none;*/
+	
 	float: left;
 	margin-left: 28px;
 	padding: 5px;
