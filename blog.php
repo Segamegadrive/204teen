@@ -4,7 +4,7 @@
 ?>
 
 <!DOCTYPE html>
-<html lang = "en-GB">
+<html lang = "en">
 <head>
 	<title>204teen Production - Blogs</title>
 	<link rel = "stylesheet" type = "text/css" href = "css/mydesign.css" />

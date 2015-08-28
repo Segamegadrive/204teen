@@ -1,10 +1,10 @@
 <?php
-	session_start();
+	//session_start();
 	include_once("connect.php");
 ?>
 
 <!DOCTYPE html>
-<html lang = "en=GB">
+<html lang = "en">
 <head>
 	<title>Welcome to 204teen Production</title>
 	<link rel = "stylesheet" type = "text/css" href = "css/mydesign.css" />

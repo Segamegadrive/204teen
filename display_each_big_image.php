@@ -3,7 +3,7 @@ session_start();
 include_once("connect.php");
 ?>
 <!DOCTYPE html>
-<html>
+<html lang = "en">
 <head>
 	<?php
 		if(isset($_GET['img_thumb_id'])){

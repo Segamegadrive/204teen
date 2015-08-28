@@ -1,5 +1,5 @@
 <?php
-	session_start();
+	//session_start();
 	include_once("connect.php");
 ?>
 
@@ -18,7 +18,7 @@ function curPageURL() {
 ?>
 
 <!DOCTYPE html>
-<html lang = "en=GB" xmlns:fb="http://ogp.me/ns/fb#">
+<html lang = "en">
 <head>
 	<?php
 		if(isset($_GET['blog_id'])){
